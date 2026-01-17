@@ -20,10 +20,9 @@ api_version = "2026-04"
   topics = [ "app/uninstalled" ]
   uri = "/webhooks/app/uninstalled"
 
-[access]
+[access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-# Analytics app - requires protected customer data access
-scopes = "read_products,write_products,read_orders,read_customers,read_checkouts,read_analytics,read_returns"
+scopes = "write_products,read_orders"
 
 [auth]
 redirect_urls = [ "https://example.com/api/auth" ]
