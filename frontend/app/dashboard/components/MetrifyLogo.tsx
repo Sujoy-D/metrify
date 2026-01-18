@@ -1,5 +1,5 @@
 import svgPaths from "../imports/svg-gdb1riyitb";
-import shopifyLogo from "figma:asset/7ea2841e848cf0807470fd48bd7030520d4b3d32.png";
+import shopifyLogo from "../assets/metrify-logo.png";
 
 export function MetrifyLogo() {
   return (
