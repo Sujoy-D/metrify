@@ -5,14 +5,16 @@ yarn-error.log
 package-lock.json
 yarn.lock
 
-# Environment
+# Environment variables
 .env
 .env.local
 .env.*.local
+backend/.env
 
-# Build
+# Build output
 dist/
 build/
+.react-router/
 *.tsbuildinfo
 
 # Logs
@@ -28,15 +30,28 @@ pino-*.log
 *~
 .DS_Store
 
-# TypeScript
-*.tsbuildinfo
+# Shopify CLI
+.shopify/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
 
 # Testing
 coverage/
 .nyc_output/
+
+# Prisma
+prisma/migrations/
+prisma/dev.db
+prisma/dev.db-journal
 
 # Misc
 .cache/
 temp/
 tmp/
 venv/
+__pycache__/
+*.pyc
+.pytest_cache/
